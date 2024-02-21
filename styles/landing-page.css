@@ -1,0 +1,84 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+body {
+  width: 144rem;
+  font-size: 1.6rem; /* Set base font size */
+  font-family: 'Poppins', sans-serif;
+  background-color: #ecf0f3;
+}
+
+.landing-page-Q1s {
+  box-sizing: border-box;
+  padding: 43.2rem 57.9rem 43.2rem 58rem;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets1/Pharma.jpg');
+  background-color: #ffffff;
+}
+
+.landing-page-Q1s .pharmeasy-6fP {
+  margin-bottom: 2.4rem;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1.2575;
+  color: rgb(194, 136, 28);
+  font-family: 'Poppins', sans-serif;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.landing-page-Q1s .auto-group-c93b-23F {
+  margin: 0rem 1.3rem 0rem 1.2rem;
+  width: calc(100% - 2.5rem);
+  height: 7.3rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #457b9d;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.landing-page-Q1s .auto-group-c93b-23F:hover {
+  background-color: #35648b;
+  box-shadow: 0 0.6rem 0.6rem rgba(0, 0, 0, 0.35);
+}
+
+.landing-page-Q1s .auto-group-c93b-23F:active {
+  transform: translateY(0.1rem);
+}
+

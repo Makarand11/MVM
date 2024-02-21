@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400" />
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../assets1/home_bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #3f51b5; /* Set the background color of the navbar */
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            z-index: 1;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        /* Main Content Styles */
+        .container {
+            text-align: center;
+            margin-top: auto;
+            padding: 2rem;
+            color: #fff; /* Text color for better readability on background image */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1; /* Fill remaining vertical space */
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #fff; /* Primary color */
+        }
+
+        .add-patient-btn {
+            background-color: #4caf50; /* Success color */
+            color: #fff;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .add-patient-btn:hover {
+            background-color: #388e3c; /* Darker shade of success color */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="patients-record.html">Patients Record</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Welcome to Patients Record System</h1>
+        <button class="add-patient-btn" onclick="window.location.href='desktop-1.html'">Add Patient</button>
+    </div>
+</body>
+
+</html>

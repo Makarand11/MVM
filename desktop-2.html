@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Desktop - 2</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans%3A300%2C400" />
+  <link rel="stylesheet" href="./styles/desktop-2.css" />
+</head>
+
+<body>
+  <div class="desktop-2-ZH7">
+    <div class="auto-group-ryid-JEh">
+      <img class="arrowforwardiosfill0wght400grad0opsz48-1-6-pyj"
+        src="./assets/arrowforwardiosfill0wght400grad0opsz48-1-6-QCu.png" />
+    </div>
+    <div class="auto-group-lpmt-w2m">
+      <div class="auto-group-rifo-r9j">
+        <div class="container">
+          <h2>Fill in the Form</h2>
+          <form id="myForm" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="contact">Contact Number:</label>
+              <input type="tel" id="contact" name="contact" required>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="submit" id="submit">
+            </div>
+          </form>
+        </div>
+        <p class="prescription-HPT">Prescription</p>
+      </div>
+    </div>
+    <div class="auto-group-jvwy-YqB">
+      <button class="add-medicine-PL1" role="button" onclick="window.location.href='desktop-7.html';">Add Medicine</a></button>
+    </div>
+  </div>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAq98jd2LyULzaOUz-izUAGePWTSGKA9ZU",
+      authDomain: "medicine-84f56.firebaseapp.com",
+      projectId: "medicine-84f56",
+      storageBucket: "medicine-84f56.appspot.com",
+      messagingSenderId: "432682544239",
+      appId: "1:432682544239:web:9fc0f5c787e3abf286f19a",
+      measurementId: "G-7XC15DR0FS"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    const db = getDatabase(app);
+
+    document.getElementById("submit").addEventListener('click', function (e) {
+      e.preventDefault();
+      set(ref(db, 'user/' + document.getElementById("name").value),
+        {
+          username: document.getElementById("name").value,
+          age: document.getElementById("age").value,
+          email: document.getElementById("email").value,
+          contactnumber: document.getElementById("contact").value
+        });
+      alert("Login Successfull !")
+
+
+    });
+  </script>
+</body>
+
+</html>

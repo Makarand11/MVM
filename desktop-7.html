@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Confirmation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ecf0f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 20px;
+      width: fit-content;
+      margin-top: 20px;
+      max-width: 1000px;
+      text-align: center; 
+    }
+
+    .form1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #3f51b5;
+    }
+
+    h2 {
+      color: #777;
+    }
+
+    select,
+    input,
+    button {
+      margin: 10px 0;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    button {
+      background-color: #3f51b5;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2f3e9e;
+    }
+
+    #qr-code {
+      margin-top: 20px;
+      margin: auto; /* Center horizontally */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Prescription</h1>
+      <h2>Confirm Prescription and Generate QR code?</h2>
+      <div class="form1">
+        <form id="qr-generation-form">
+          <div>
+            <label for="medicine1">Medicine 1:</label>
+            <select id="medicine1">
+              <option value="Crocin">Crocin</option>
+              <option value="Nicotinamide">Nicotinamide</option>
+              <option value="Cetrimide">Cetrimide</option>
+              <option value="Erythromycin">Erythromycin</option>
+            </select>
+            <input type="number" id="quantity1" placeholder="Quantity" required>
+          </div>
+          <div>
+            <label for="medicine2">Medicine 2:</label>
+            <select id="medicine2">
+              <option value="Crocin">Crocin</option>
+              <option value="Nicotinamide">Nicotinamide</option>
+              <option value="Cetrimide">Cetrimide</option>
+              <option value="Erythromycin">Erythromycin</option>
+            </select>
+            <input type="number" id="quantity2" placeholder="Quantity" required>
+          </div>
+          <div>
+            <label for="medicine3">Medicine 3:</label>
+            <select id="medicine3">
+              <option value="Crocin">Crocin</option>
+              <option value="Nicotinamide">Nicotinamide</option>
+              <option value="Cetrimide">Cetrimide</option>
+              <option value="Erythromycin">Erythromycin</option>
+            </select>
+            <input type="number" id="quantity3" placeholder="Quantity" required>
+          </div>
+          <div>
+            <label for="medicine4">Medicine 4:</label>
+            <select id="medicine4">
+              <option value="Crocin">Crocin</option>
+              <option value="Nicotinamide">Nicotinamide</option>
+              <option value="Cetrimide">Cetrimide</option>
+              <option value="Erythromycin">Erythromycin</option>
+            </select>
+            <input type="number" id="quantity4" placeholder="Quantity" required>
+          </div>
+          <button class="button" type="submit">Generate QR Code</button>
+        </form>
+      </div>
+      <div id="qr-code" class="card"></div>
+      <div class="auto-group-jvwy-YqB">
+        <button class="add-medicine-PL1" role="button" onclick="window.location.href='desktop-24.html';">Generate Prescription</a></button>
+      </div>  
+    </div>
+  </div>
+
+  <script>
+    let qrGenerationForm = document.getElementById("qr-generation-form");
+    let qrCode;
+
+    function generateQrCode(qrContent) {
+      return new QRCode("qr-code", {
+        text: qrContent,
+        width: 200,
+        height: 200,
+        colorDark: "#000",
+        colorLight: "#fff",
+        correctLevel: QRCode.CorrectLevel.H,
+      });
+    }
+
+    qrGenerationForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      let qrContent = "";
+
+      // Get the values of selected medicines and their quantities
+      for (let i = 1; i <= 4; i++) {
+        let medicine = document.getElementById("medicine" + i).value;
+        let quantity = document.getElementById("quantity" + i).value;
+        qrContent += `${medicine}: ${quantity}\n`;
+      }
+
+      if (qrCode == null) {
+        qrCode = generateQrCode(qrContent);
+      } else {
+        qrCode.makeCode(qrContent);
+      }
+    });
+  </script>
+</body>
+
+</html>

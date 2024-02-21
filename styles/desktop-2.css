@@ -1,0 +1,107 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.desktop-2-ZH7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ecf0f3; /* Light gray background */
+}
+
+.auto-group-ryid-JEh {
+  padding: 2.042rem 3.167rem 1.425rem 3.167rem;
+  background-color: #3f51b5; /* Primary color */
+  width: 100%;
+}
+
+.auto-group-ryid-JEh .arrowforwardiosfill0wght400grad0opsz48-1-6-pyj {
+  width: 24px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.auto-group-lpmt-w2m {
+  padding: 3.8rem 6.1rem 8.1rem 6.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  max-width: 400px;
+  margin-bottom: 3rem;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #3f51b5; /* Primary color */
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #2f3e9e; /* Darker shade of primary color */
+}
+
+.add-medicine-PL1 {
+  background-color: #3f51b5; /* Primary color */
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Albert Sans', 'Source Sans Pro';
+}
+
+.add-medicine-PL1:hover{
+  background-color: #2f3e9e;
+}

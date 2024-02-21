@@ -1,0 +1,332 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.desktop-1-e6Z {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.desktop-1-e6Z .auto-group-hpyd-BsB {
+  box-sizing: border-box;
+  padding: 1.7rem 2.1rem 1.1rem 2.1rem;
+  width: 100%;
+  background-color: #e53935;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-hpyd-BsB .arrowforwardiosfill0wght400grad0opsz48-1-3-XAM {
+  margin-right: 135.8rem;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+}
+.desktop-1-e6Z .auto-group-xhh7-Qjw {
+  box-sizing: border-box;
+  padding: 3.8rem 57.5rem 3.3rem 57.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-xhh7-Qjw .image-4-jGR {
+  margin-bottom: 0.6rem;
+  width: 29rem;
+  height: 29rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-xhh7-Qjw .patient1-rbw {
+  margin-left: 0.1rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.375;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-xhh7-Qjw .patient1gmailcom-ygZ {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-xhh7-Qjw .auto-group-fyk3-uaD {
+  margin: 0 1.7rem;
+  width: calc(100% - 3.4rem);
+  height: 7.3rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #457b9d;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z {
+  width: 130.5rem;
+  height: 23rem;
+  position: absolute;
+  left: 6.7rem;
+  top: 10.7rem;
+  display: flex;
+  align-items: center;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u {
+  margin-right: 3.5rem;
+  box-sizing: border-box;
+  padding: 0.4rem 1.3rem 0rem 0.1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .image-6-Xk1 {
+  margin-right: 1.8rem;
+  width: 21.8rem;
+  height: 22.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .auto-group-yqe5-fbK {
+  margin: 0.2rem 0rem 0.6rem 0rem;
+  width: 38.5rem;
+  height: calc(100% - 0.8rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .auto-group-yqe5-fbK .appointment-date-23-08-2023-Nkd {
+  width: 38.5rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 0;
+  top: 5.3rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .auto-group-yqe5-fbK .number-of-medicines-2-zfX {
+  width: 28.9rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 0;
+  top: 10.8rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .auto-group-yqe5-fbK .view-details-W85 {
+  width: 13.1rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 16.3rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 2.5;
+  color: #e53935;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .auto-group-yqe5-fbK .doctor-doctor-1-1ad {
+  width: 19.2rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-oz7f-p4u .auto-group-yqe5-fbK .arrowforwardiosfill0wght400grad0opsz48-1-4-vhb {
+  width: 1.14rem;
+  height: 2rem;
+  position: absolute;
+  left: 13.72rem;
+  top: 18.095rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV {
+  box-sizing: border-box;
+  padding: 0.4rem 1.3rem 0rem 0.1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .image-7-Kzd {
+  margin-right: 1.8rem;
+  width: 21.8rem;
+  height: 22.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .auto-group-jzch-4SR {
+  margin: 0.2rem 0rem 0.6rem 0rem;
+  width: 38.5rem;
+  height: calc(100% - 0.8rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .auto-group-jzch-4SR .appointment-date-23-06-2023-ypH {
+  width: 38.5rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 0;
+  top: 5.3rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .auto-group-jzch-4SR .number-of-medicines-3-VGq {
+  width: 28.9rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 0;
+  top: 10.8rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .auto-group-jzch-4SR .view-details-Pd7 {
+  width: 13.1rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0;
+  top: 16.3rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 2.5;
+  color: #e53935;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .auto-group-jzch-4SR .arrowforwardiosfill0wght400grad0opsz48-1-5-WSq {
+  width: 1.14rem;
+  height: 2rem;
+  position: absolute;
+  left: 13.72rem;
+  top: 18.095rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-6apx-J6Z .auto-group-yqnv-oWV .auto-group-jzch-4SR .doctor-doctor-1-pTX {
+  width: 19.2rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2.2;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-thad-6vq {
+  width: 90.6rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 6.7rem;
+  top: 3.8rem;
+  display: flex;
+  align-items: center;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-thad-6vq .prescription-1-EXF {
+  margin-right: 44.3rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.5714285714;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .auto-group-thad-6vq .prescription-2-AA1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.5714285714;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .component-1-h9w {
+  box-sizing: border-box;
+  padding: 2.147rem 2.058rem 2.058rem 2.147rem;
+  width: 8.5rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 124.6rem;
+  top: 28.8rem;
+  background-color: #e53935;
+  border-radius: 4.25rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(0.2rem);
+}
+.desktop-1-e6Z .auto-group-gqzx-9UZ .component-1-h9w .vector-zuj {
+  width: 4.2947rem;
+  height: 4.2947rem;
+  object-fit: contain;
+  vertical-align: top;
+}

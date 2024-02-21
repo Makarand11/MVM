@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300" />
+  <link rel="stylesheet" href="./styles/landing-page.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ecf0f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #3f51b5;
+    }
+
+    h2 {
+      color: #777;
+    }
+
+    select,
+    input,
+    button {
+      margin: 10px 0;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .button-1 {
+      background-color: #457B9D;
+      border-radius: 8px;
+      border: none;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      height: 40px;
+      line-height: 20px;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .button-1:hover,
+    .button-1:focus {
+      background-color: rgb(194, 136, 28);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAq98jd2LyULzaOUz-izUAGePWTSGKA9ZU",
+      authDomain: "medicine-84f56.firebaseapp.com",
+      projectId: "medicine-84f56",
+      storageBucket: "medicine-84f56.appspot.com",
+      messagingSenderId: "432682544239",
+      appId: "1:432682544239:web:9fc0f5c787e3abf286f19a",
+      measurementId: "G-7XC15DR0FS"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</head>
+
+<body>
+  <div class="landing-page-Q1s">
+    <p class="pharmeasy-6fP">PharmEasy</p>
+    <button class="button-1" role="button" onclick="window.location.href='login.html';">Get Started</button>
+  </div>
+</body>
+
+</html>
